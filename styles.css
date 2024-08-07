@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-500: hsl(0, 0%, 42%);
+    --Grey-950: hsl(0, 0%, 7%);
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--Yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Figtree;
+}
+
+.main-container {
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 320px;
+    padding: 20px 20px 15px 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 6px 5px 1px black;
+}
+
+.top-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.learning{
+    background-color: var(--Yellow);
+    align-content: start;
+    width: min-content;
+    padding: 2%;
+    border-radius: 3px;
+    font-size: .8rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.published{
+    font-size: 0.9rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+.information{
+    color: var(--Grey-500);
+    font-size: 0.9rem;
+    margin-top: 1%;
+    line-height: 23px;
+}
+
+.greg-div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.greg-image{
+    height: 30px;
+}
+
+.greg-p{
+    font-weight: 700;
+}
