@@ -14,79 +14,79 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: Figtree;
+    padding: 1rem;
+    font-family: 'Figtree', sans-serif;
 }
 
-.main-container {
+.card {
     background-color: var(--White);
     display: flex;
     flex-direction: column;
-    width: 90%;
-    max-width: 320px;
-    padding: 20px 20px 15px 20px;
+    max-width: 20rem;
+    padding: 1.25rem;
     border-radius: 10px;
     border: 1px solid black;
     box-shadow: 6px 5px 1px black;
 }
 
-.top-image-container{
+.top-image-container {
     display: flex;
     justify-content: center;
 }
 
-.main-image{
+.main-image {
     width: 100%;
     border-radius: 10px;
 }
 
-.learning{
+.learning {
     background-color: var(--Yellow);
     align-content: start;
     width: min-content;
-    padding: 2%;
+    padding: 0.25rem;
     border-radius: 3px;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 700;
     margin-bottom: 0;
 }
 
-.published{
+.published {
     font-size: 0.9rem;
 }
 
-h1{
+h2 {
     font-size: 1.5rem;
-    margin-top: 1%;
-    margin-bottom: 4%;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem; 
     transition: 0.4s ease;
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
 
-h1:hover{
+h2:hover {
     color: hsl(47, 88%, 63%);
 }
 
-.information{
+.information {
     color: var(--Grey-500);
     font-size: 0.9rem;
-    margin-top: 1%;
-    line-height: 23px;
+    margin-top: 0.25rem; 
+    line-height: 1.4375rem;
 }
 
-.greg-div{
+.greg-div {
     display: flex;
-    gap: 10px;
+    gap: 0.625rem; 
     align-items: center;
 }
 
-.greg-image{
-    height: 30px;
+.greg-image {
+    height: 1.875rem; 
 }
 
-.greg-p{
+.greg-p {
     font-weight: 700;
 }
